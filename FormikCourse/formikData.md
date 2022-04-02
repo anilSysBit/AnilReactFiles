@@ -97,3 +97,9 @@ type="text"
 name="firstname"
 {...formik.getFieldProps("firstname")} => after doing this you will get all the features of onchange onblur and values;
 />
+
+
+# This is teh description of Formik
+
+if you don't use the field property of formik
+then 

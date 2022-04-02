@@ -26,7 +26,7 @@ const Form3Hook = () => {
             <Form>
                 <label htmlFor="email">Email    : </label>
                 <Field type="email" name="email"/>
-                <ErrorMessage name='email' component="div" />
+                <ErrorMessage name='email' component="span" />
                 <button type='submit' className='btn btn-submit'>submit</button>
             </Form>
     </Formik>
